@@ -1,5 +1,5 @@
 # CS-433 Project2: Road Segmentation on Aerial Images
-**The README outlines the requirements, project structure and the way to reproduce our final results. For more details, you can check our report.**
+**The README outlines the requirements, project structure and the way to reproduce our final results. For more details, you can check our report. It is possible that something wrong happened to `params.pkl`(caused by LFS), please download our model parameter in the shared link. Thanks.**
 
 ## Introduction
 This project aims to extract road from a set of aerial images. We use U-Net, which is a popular and typical image segmentation model 
@@ -60,7 +60,7 @@ To reproduce our final results or train from scratch：
 3. Before augmenting the training set, create folder `augmented_images` and `augmented_groundtruth` under `./data/training`, then run `augmentation.py` and find your augmented data in these two folders, and copy them to `./data/training/images` and `./data/training/groundtruth`, respectively.
 
 4. Play with the model using `run.py`. You can either:
-    1)  use our pre-trained model parameters(default) by executing `run.py` directly,**you can download model parameters here `https://drive.google.com/file/d/1vMxn7I7HaEzEpsNWLJkTjskv9g7O9RkH/view?usp=sharing` if there is something wrong with loading param.pkl(caused by LFS)**
+    1)  use our pre-trained model parameters(default) by executing `run.py` directly, **you can download model parameters here `https://drive.google.com/file/d/1vMxn7I7HaEzEpsNWLJkTjskv9g7O9RkH/view?usp=sharing` if there is something wrong with loading param.pkl(caused by LFS)**
 or 
     2) set `trained_model` argument as `False` and train the model from scratch. After training you may want to test on your parameters, then set `trained_model` as `True` and execute again to make a prediction.
 
