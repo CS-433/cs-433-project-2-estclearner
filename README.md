@@ -51,7 +51,7 @@ Here is an overview of the architecture of our project:
 We used Google Colab, which provides a free GPU, to run our model. It is also possible to run our model with CPU, but it would be time-consuming.
 
 To reproduce our final results or train from scratch：
-**(You can download the data in `this repo` or from `https://drive.google.com/drive/folders/1SnIyY7poHQeg9vRNJgt9cxA3CNydLfC4?usp=sharing` and skip 1, 2 and 3)**
+**(You can use the data in `this repo` or from `https://drive.google.com/drive/folders/1SnIyY7poHQeg9vRNJgt9cxA3CNydLfC4?usp=sharing` and skip 1, 2 and 3)**
 
 1. Download the orignial data and make sure they are in directory `'./data/'`
 
