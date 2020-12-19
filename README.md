@@ -60,7 +60,7 @@ To reproduce our final results or train from scratch：
 3. Before augmenting the training set, create folder `augmented_images` and `augmented_groundtruth` under `./data/training`, then run `augmentation.py` and find your augmented data in these two folders, and copy them to `./data/training/images` and `./data/training/groundtruth`, respectively.
 
 4. Play with the model using `run.py`. You can either:
-    1)  use our pre-trained model parameters(default) by executing `run.py` directly, **it may take a few minutes to clone the param.pkl from our observation, but you can download model parameters here `https://drive.google.com/file/d/1vMxn7I7HaEzEpsNWLJkTjskv9g7O9RkH/view?usp=sharing` if there is something wrong with params.pkl(caused by LFS)**
+    1)  use our pre-trained model parameters(default) by executing `run.py` directly, **it may take a few minutes to clone the params.pkl from our observation, but you can download model parameters here `https://drive.google.com/file/d/1vMxn7I7HaEzEpsNWLJkTjskv9g7O9RkH/view?usp=sharing` if there is something wrong with params.pkl(caused by LFS)**
 or 
     2) set `trained_model` argument as `False` and train the model from scratch. After training you may want to test on your parameters, then set `trained_model` as `True` and execute again to make a prediction.
 
